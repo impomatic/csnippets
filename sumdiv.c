@@ -1,5 +1,5 @@
 /* sumdiv
- * returns the sum of the proper divisors of n
+ * returns the sum of the proper divisors of n ( n >= 2 )
  */
 
 int sumdiv(int n)
