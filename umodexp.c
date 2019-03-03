@@ -1,4 +1,4 @@
-/* modexp - unsigned modular exponentiation
+/* umodexp - unsigned modular exponentiation
  * returns b^e mod m
  */
 
