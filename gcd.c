@@ -2,7 +2,7 @@
  * returns the gcd of a and b. 1 if a and b are relatively prime
  */
 
-unsigned gcd(unsigned a, unsigned b)
+unsigned gcd( unsigned a, unsigned b )
 {
     unsigned temp;
     while ( b != 0 )
