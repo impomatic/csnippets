@@ -2,12 +2,12 @@
  * returns b^e mod m
  */
 
-unsigned modexp(unsigned b,unsigned e,unsigned m)
+unsigned modexp( unsigned b, unsigned e, unsigned m )
 {
     unsigned c = 1;
-    while (e)
+    while ( e )
     {
-        if (e & 1)
+        if ( e & 1 )
             c = c * b % m;
         e >>= 1;
         b = b * b % m;
