@@ -9,7 +9,7 @@ int sumdiv( int n )
     {
         if ( n % i == 0 )
         {
-            sum += i + n/i;
+            sum += i + n / i;
         }
     }
     if ( i * i == n )
