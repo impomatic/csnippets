@@ -5,7 +5,7 @@
 unsigned gcd( unsigned a, unsigned b )
 {
     unsigned temp;
-    while ( b != 0 )
+    while ( b )
     {
         temp = a % b;
         a = b;
